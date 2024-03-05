@@ -7,11 +7,11 @@ But WebSocket Reflector X is a controlled proxy that provided by the platform se
 ## Usage
 
 ```
-docker pull ghcr.io/ret2shell/container-proxy:latest
+docker pull ghcr.io/ret2shell/container-proxy:main
 ```
 
 you can try it on your local machine.
 
 ```
-docker run --rm -it -p 7866:7866 ret2shell/container-proxy:latest
+docker run --rm -it -p 7866:7866 ret2shell/container-proxy:main
 ```
